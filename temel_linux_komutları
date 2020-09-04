@@ -1,0 +1,18 @@
+1) ls (List directory):
+bulunduğumuz dizindeki tüm dosyaları gösterir.
+örnek:Belgeler, Desktop, Downloads, Genel, Müzik, Resimler, Templates, Videolar.
+
+eğer ls-R:
+yazarsak bu klasörlerin içlerinde ne olduklarının hepsini gösterir.
+
+eğer ls-a: 
+yazarsak gizli belgeleri gösterir.
+
+eğer ls-l:
+yazarsak klasörlerin detaylı bilgisini verir.
+
+eğer ls-Ral:
+yazarsak gizli belgelerin detaylı bilgisini verir.
+
+2) cd (Change Directory):
+dizinler arasında geçiş yapmak istediğimizde kullanabileceğimiz bir komuttur.
