@@ -1,1 +1,40 @@
+işletim sistemi nasıl çalışır?
+Yönetici modda çalıştığı için bilgisayardaki tüm yazılımlara hükmederek onları yönlendirir.Bu hükmetmek iki türlü olur:   *Kaynak yönetimi*
+ve *kodların algılandığı katman*
+
+
+Kaynak yönetimi: Donanımlar arası kaynak tüketimi kontrol edilirken aynı zamanda kaynakların en verimli kullanılması için çalışma yapılıyor.
+
+Kodların algılandığı katman: Bilgisayar dilinden anlamayacağımız için yazılım dilini bilgisayar diline çeviriyor ve böylelikle donanım 
+için istenilen şey gerçekleşiyor.
+
+*****************************************
+Siber güvenlikte linux işletim sistemleri 
+*****************************************
+
+1)Kullanıcı hesap yönetimi
+
+*Sudo komutunun kullanılması: 
+
+eğer id yazdığımızda 0 çıkmıyorsa, kısıtlı haklara sahip bir kullanıcı olduğumuzu root sahibi olmadığımızı anlarız.
+sudo yu kullandığımız zaman tüm kullanıcıların yetkisiyle tüm komutları çalıştırabileceğimiz anlamına geliyor.
+sudo komutunu kullanarak hak yükseltme yapabiliyoruz.
+
+*Güçlü parola yönetimi:
+
+ilk önce paketi kurmak için: sudo apt install libpam-pwquality diye komut giriyoruz.
+yeni bir kullanıcı yaratıyoruz: sudo useradd  mehmet 
+sudo psswd mehmet
+yeni parolası: giriyorruz
+güçlü bir parola oluşturuyoruz.
+
+*yeni hesap açma:
+
+
+
+
+2)Dosya yönetimi
+3)Şifreleme işlemleri
+4)Erişim denetimi
+
 
