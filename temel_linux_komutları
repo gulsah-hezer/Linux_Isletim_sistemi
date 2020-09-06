@@ -14,5 +14,76 @@ yazarsak klasörlerin detaylı bilgisini verir.
 eğer ls-Ral:
 yazarsak gizli belgelerin detaylı bilgisini verir.
 
+************
 2) cd (Change Directory):
-dizinler arasında geçiş yapmak istediğimizde kullanabileceğimiz bir komuttur.
+dizinler arasında geçiş yapmak istediğimizde kullanabileceğimiz bir komuttur.“cd”, bir dizine gitmek için kullanılan komuttur. 
+Örneğin, Home klasöründeyseniz ve Downloads klasörüne gitmek istiyorsanız, “cd Downloads” yazabilirsiniz.
+Bulunduğunuz klasörden geri dönmek veya bir üst klasöre çıkmak istiyorsanız “cd ..” komutu kullanılır.
+
+************
+3) pwd:terminali ilk açtığımızda giriş yapmış olduğumuz kullanıcının home dosyasında bulunuruz.Eğer hangi dosyanın içinde olduğunu bilmek istiyorsak pwd yazarız.
+Bu komutun çıktısı bize roottan başlayarak tam hangi klasörde olduğumuzu gösterir. Root Linux bir sistemin temelidir. Root, eğik bir çizgi ile gösterilir(/).
+yani dıştan içe doğru yeri gösterir.
+
+************
+4) mkdir & rmdir: “mkdir” komutu, bir klasör veya dizin oluşturmanız gerektiğinde kullanılır.
+Örneğin “ TEST” adlı bir dizin yapmak istiyorsanız “mkdir TEST” komutunu yazabilirsiniz. “rmdir” bir dizini silmek için kullanılan komuttur.
+Ancak, rmdir yalnızca boş bir dizini silmek için kullanılabilir. İçi dolu bir klasörü silmek istiyorsanız komutu “rm –r klasörünadı” şeklinde kullanmanız gerekir.
+
+************
+5) touch:“touch” komutu bir dosya yaratmak için kullanılır. Bu dosya herhangi bir şey olabilir. 
+Örneğin bir zip dosyası ya da txt dosyasını aynı komutla yaratabilirsiniz.
+
+************
+6) man &-help:Bir komutun nasıl kullanılacağını ve hakkında daha fazla bilgi edinmek için man komutu kullanılır. Örneğin,“man touch” touch komutunun manuel sayfalarını gösterir. 
+Bir komutu yazıp arkasına “–help” eklersek, yine manual çıktısı ile aynı sonuca ulaşırız.
+
+***********
+7) cp: Cp komutu, komut satırı üzerinden kopyalama yapmak için kullanılır. İki argüman alır; ilki kopyalanacak dosyanın konumu, ikincisi kopyalanacak yerdir.
+
+***********
+8) mv: Mv komutu, dosyaları komut satırı yoluyla taşımak için kullanılır. 
+Bir dosyayı yeniden adlandırmak için mv komutunu da kullanabiliriz.
+Örneğin az önce kopyaladığımız “copytest.txt” d0syasının ismini “newcopytest.txt” olarak değiştirmek istiyoruz.
+“mv copytest.txt newcopytest.txt” komutu ile bu işlemi gerçekleştirebiliriz.
+
+**********
+9) nano &vi: nano ve vi, Linux komut satırı üzerinde hali hazırda yüklü olan metin düzenleyicilerdir. 
+Nano, renkli anahtar kelimeleri gösteren ve dillerin çoğunu tanıyan iyi bir metin editörüdür. Vi, nano’dan daha basittir.
+Bu komutla yeni bir dosya oluşturabilir veya bu düzenleyiciyi kullanarak dosyayı değiştirebilirsiniz.
+
+***********
+10) sudo: Sudo, Linux komut satırında yaygın olarak kullanılan bir komuttur. Sudo, “SuperUserDo” kelimesinden gelir.
+Bu komutu yapılacak bir işlemde kök ayrıcalıkları kullanmak istersek veya idari bir yapıyla erişim gerekiyorsa kullanabiliriz. 
+Örneğin “sudo su” komutunu kullanarak sistemde admin yetkisi ile işlem yapmaya başlayabiliriz.,
+
+************
+
+11)last: Sisteme en son giriş yapan kullanıcıların o andan, geçmişe doğru listesini detaylı bir biçimde sunar.
+
+***********
+
+12)history: Sistemde daha önce verilen komutların listesini çıkartır.
+
+***********
+
+13)top:Sistemde o an çalışmakta olan uygulamaları verir.
+
+***********
+
+14)cat:Genel olarak bir dosyanın içini okumak için kullanılır.
+
+**********
+
+15)free:Bilgisayarınızdaki bellek kullanımını gösterir.
+
+*********
+
+
+
+
+
+
+
+
+
