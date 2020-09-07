@@ -30,6 +30,22 @@ güçlü bir parola oluşturuyoruz.
 
 *yeni hesap açma:
 
+sudo useradd leyla -m -d /home/leyla -s bin/bash
+sudo psswd leyla 
+
+
+not: sudo ile su arasımdaki farklılıklar, su komutu veya root anlamına gelir.su komutu ile root şifresini kullanarak başka bir kullanıcıdan 
+root kullanıcısına erişmenize imkan verir.
+
+su komutu ile root kullanıcısına geçiş yaparsınız.Sudo komutu ile root kullanıcı yetkisi ile bir komut çalıştırır, işlem yaparsınız.
+Örnek verecek olursak, terminalden su komutu verdiğinizde sistem sizden sistemdeki en yetkili kullanıcı olan root kullanıcısının şiresini isteyecek.
+Şifrfreyi girdiğinizde root kullanıcısı ile oturumunuza bu kullanıcı ile devam edersiniz, ve bu kullanıcının tüm yetkilerine sahip olursunuz ve bu yetkiler ile 
+istediğiniz işlemi yapabilirsiniz.Daha sonra exit yazarak kullanıcı oturumundan çıkabilirz.
+
+Genel olarak, su komutu ile amaçlanan, root kullanıcısının ayrıcalıklarıyla başka bir kabuk (shell) örneğini (oturumu) başlatmaktır.
+
+
+
 
 
 
